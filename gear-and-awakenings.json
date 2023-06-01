@@ -1,0 +1,182 @@
+{
+  "gear": {
+    "goalie": {
+      "Momentum Boots": {
+        "description": "Gain 5% Speed plus up to 17.5% over 10s. Getting hit resets the added effect.",
+        "effects": ["hits", "speed"]
+      },
+      "Eject Button": {
+        "description": "Gain 50% DASH range, BLINK range, and HASTE effectiveness, and 20% reduced SECONDARY cooldown. After casting your SECONDARY, recast it within 3.25s to BLINK back to the cast position.",
+        "effects": ["cooldowns", "secondary", "haste", "dash", "blink"]
+      },
+      "Strike Shot": {
+        "description": "PROJECTILES gain 35% travel or cast range. Every lls, Strike also fires a LIGHT hit PROJECTILE.",
+        "effects": ["projectile", "light_hits", "projectiles", "strike"]
+      },
+      "Powerhouse Pauldrons": {
+        "description": "Gain 40% size, 20 Power, and 15% damage reduction.",
+        "effects": ["damage", "size", "power"]
+      }
+    },
+    "forward": {
+      "Slick Kicks": {
+        "description": "Strikes grant 30% Speed for 1.5s.",
+        "effects": ["speed", "strike"]
+      },
+      "Pummelers": {
+        "description": "Your knockbacks hit players 10% farther. Gain 15% Speed whenever you have a Striker advantage.",
+        "effects": ["speed", "hits", "knockback", "strike"]
+      },
+      "Vicious Vambrace": {
+        "description": "Restore Stagger equal to 25% of the damage you deal (reduced on Core).",
+        "effects": ["stagger", "damage"]
+      },
+      "Magnetized Soles": {
+        "description": "Crossing Midfield grants 30% Speed for Is.",
+        "effects": ["speed"]
+      },
+      "Siphoning Wand": {
+        "description": "Hits deal bonus damage equal to 5% of their max Stagger over 2.5s, healing the user for the same amount.",
+        "effects": ["hits", "stagger", "damage"]
+      }
+    }
+  },
+  "awakenings": {
+    "Hotshot": {
+      "description": "Striker abilities hit the Core 10% harder and refund 30% of the ability's cooldown (once per cast).",
+      "effects": ["cooldowns", "ability_hits", "strike"]
+    },
+    "Adrenaline Rush": {
+      "description": "Ability cooldowns reduced by Is. Earning a Takedown increases Speed by 100% for 8s and reduces current cooldowns by 5s.",
+      "effects": ["cooldowns", "speed", "takedown"]
+    },
+    "Specialized Training": {
+      "description": "SPECIAL hits 50% harder (10% to Core) and heals 50% more.",
+      "effects": ["special", "hits"]
+    },
+    "Rapid Fire": {
+      "description": "PRIMARY cooldown reduced by 33%.",
+      "effects": ["cooldowns", "primary"]
+    },
+    "Vdeadeye": {
+      "description": "Hit 35% harder (7% to Core) against enemies at 600+ range.",
+      "effects": ["increased_hits"]
+    },
+    "Missile Propulsion": {
+      "description": "PROJECTILES gain 70% travel or cast range and hit 15% harder.",
+      "effects": ["increased_hits", "projectiles"]
+    },
+    "Twin Drive": {
+      "description": "SECONDARY gains +1 charge and has 10% reduced cooldown.",
+      "effects": ["cooldowns", "secondary", "charge"]
+    },
+    "Super Surge": {
+      "description": "DASH range, BLINK range, and HASTE effects increased 75%. These abilities hit 20% harder (4% to Core).",
+      "effects": ["dash", "increased_hits", "haste", "blink"]
+    },
+    "Cast To Last": {
+      "description": "Ability BUFFS and DE-BUFFS you cast last longer. CREATIONS last 35% longer.",
+      "effects": ["de-buffs", "buffs", "creations"]
+    },
+    "Monumentalist": {
+      "description": "CREATIONS gain 100% size and hit 15% harder (3% to Core).",
+      "effects": ["increased_hits", "size", "creations"]
+    },
+    "Primetime": {
+      "description": "PRIMARY gains +1 charge and hits harder to Core).",
+      "effects": ["hits", "primary", "charge"]
+    },
+    "Built Different": {
+      "description": "Gain Size. Your IMPACT abilities hit harder (3% on Core).",
+      "effects": ["increased_hits", "impact", "size"]
+    },
+    "Stinger": {
+      "description": "Hits deal bonus damage equal to 12% of enemies' max Stagger over 2.5s.",
+      "effects": ["hits", "bonus_damage"]
+    },
+    "Extra Special": {
+      "description": "SPECIAL cooldown reduced by 40%. Each face off, its cooldown is reset.",
+      "effects": ["special", "cooldowns"]
+    },
+    "Stagger Swagger": {
+      "description": "Gain 4% Speed. While below 50% Stagger, this effect increases to 40% and you heal 100 Stagger per second, including while in the Staggered state.",
+      "effects": ["speed", "stagger"]
+    },
+    "Unstoppable": {
+      "description": "While not staggered, gain 90% knockback resistance and 10% damage reduction.",
+      "effects": ["knockback_resistance", "damage_reduction"]
+    },
+    "Timeless Creator": {
+      "description": "CREATIONS gain duration and size.",
+      "effects": ["size", "duration", "creations"]
+    },
+    "Tempo Swing": {
+      "description": "Hitting anything heals you for 4% of your max Stagger (1.33% for LIGHT hits) and deals that amount as damage to the enemy hit.",
+      "effects": ["light_hits", "stagger", "damage"]
+    },
+    "Stacks On Stacks": {
+      "description": "Hits grant 6 stacks of Speed (0.175% per stack, 2 stacks for LIGHT hits). At 100 stacks, double the Speed per stack. Stacks reset when K.O.'d and between sets.",
+      "effects": ["light_hits", "speed"]
+    },
+    "Chronoboost": {
+      "description": "DASH range, BLINK range, and HASTE effects increased 75%. Ability BUFFS and DEBUFFS last longer.",
+      "effects": ["blink", "debuffs", "dash", "buffs", "haste"]
+    },
+    "Big Fish": {
+      "description": "Gain 40% Size and 300 max Stagger.",
+      "effects": ["size", "stagger"]
+    },
+    "Glass Cannon": {
+      "description": "Gain 10 Power and 5% Speed every 2.5s (up to 40 Power and 20% Speed). Getting hit resets the timer.",
+      "effects": ["power", "speed"]
+    },
+    "Heavy Impact": {
+      "description": "IMPACT abilities hit harder (3% on Core). Whenever you hit 2 or more enemies with a single ability, its cooldown is reduced by 25% (up to 10S).",
+      "effects": ["cooldowns", "hits", "impact"]
+    },
+    "Peak Performance": {
+      "description": "Gain 250 max Stagger and 0.007% Speed per 100 max Stagger.",
+      "effects": ["speed", "stagger"]
+    },
+    "Bulk Up": {
+      "description": "Gain 250 max Stagger and 1.5 Power per 100 max Stagger.",
+      "effects": ["power", "stagger"]
+    },
+    "Aerials": {
+      "description": "DASH range, BLINK range, and HASTE effects increased 75%. PROJECTILES gain travel or cast range.",
+      "effects": ["dash", "projectiles", "haste", "blink", "increased_range"]
+    },
+    "Quick Strike": {
+      "description": "Strike cooldown reduced by 25%. Strike hits grant 1 additional energy.",
+      "effects": ["cooldowns", "hits", "strike"]
+    },
+    "Spark Of Agility": {
+      "description": "Gain 2% Speed, plus 8% per SPARK you have (including this one).",
+      "effects": ["speed", "spark"]
+    },
+    "Spark Of Strength": {
+      "description": "Gain 4 Power, plus 16 per SPARK you have (including this one).",
+      "effects": ["power", "spark"]
+    },
+    "Spark Of Resilience": {
+      "description": "Gain 50 max Stagger, plus 200 per SPARK you have (including this one).",
+      "effects": ["stagger", "spark"]
+    },
+    "Spark Of Focus": {
+      "description": "Gain 2 Cooldown Rate, plus 8 per SPARK you have (including this one).",
+      "effects": ["cooldowns", "spark"]
+    },
+    "Perfect Form": {
+      "description": "Hits reduce other ability cooldowns by 12%, up to 1.2s per hit (40%/0.4s for LIGHT hits).",
+      "effects": ["light_hits", "cooldowns"]
+    },
+    "One-Two Punch": {
+      "description": "Hit 25% harder (5% to Core) against enemies you've hit within 2.5s.",
+      "effects": ["increased_hits"]
+    },
+    "Prize Fighter": {
+      "description": "Begin each set with 1 Prize Fighter stack, granting 25 Power. Takedowns grant 1 Prize Fighter stack (max 3 stacks), but getting K.O.'d removes 1 stack. Stacks reset between sets.",
+      "effects": ["power", "takedown"]
+    }
+  }
+}
